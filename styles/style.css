@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-text {
+    color: red;
+}
+
+.btn-primary {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn-primary:hover{
+    box-shadow: 4px 5px 8px rgb(238, 255, 0);
+}
+
+
+
+
+/* Nav and manu */
+.nav-container {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #d5d2d2;
+    height: 50px;
+    color: white;
+}
+
+.icon-container {}
+
+.manu-container {
+    display: flex;
+    list-style: none;
+
+}
+
+.manu {
+    font-size: 22px;
+    padding: 5px;
+    margin-right: 20px;
+
+}
+
+/* Banner sections */
+
+.full-banner-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../asset/image/background.jpg), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-titel {
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.banner-description {
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    margin-left: 5px;
+
+
+}
+
+/* services  */
+
+
+.full-service-container {
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(/asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+
+
+}
+
+.left-service-content {
+    padding: 25px;
+}
+
+.service-btn {
+    margin: 5px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.service-titel {
+    font-size: 2em;
+    padding: 5px;
+
+}
+
+.service-description {
+    width: 50%;
+    padding: 5px;
+}
+
+.lists {
+    list-style: decimal;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    display: flex;
+
+
+}
+
+.profile-details {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    border-right: 5px solid red;
+    padding: 20px;
+    height: 100px;
+
+}
+
+.profile-details img {
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+
+}
+
+
+
+
+
+.more-details {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 50px;
+    color: white;
+}
+
+.right-service-content {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+    text-align: center;
+}
+
+.service-icon {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.service-icon img {
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.service-icon p {
+    font-size: 16px;
+}
+
+/* Phone call section */
+
+.phone-secton {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -50px;
+    border-radius: 10px;
+}
+
+.call-now {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid gray;
+
+}
+
+.call-now img {
+    width: 75px;
+
+}
+
+.make-app-btn {
+    margin: auto;
+}
+
+.numbers {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-phone {
+    padding: 10px;
+
+}
+
+.make-up {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+/* Blogs */
+.bogs-news-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.blogs-titel h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+.blogs-titel p {
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+
+.bogs-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 24px;
+
+}
+
+.img-content {
+    box-shadow: 5px 5px 8px rgb(163, 162, 162);
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+/* Footer */
+
+.full-footer {
+    width: 100%;
+    height: 75vh;
+    background-image: url(/asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    color: white;
+    
+
+}
+
+.footer-1 {
+    padding: 50px;
+    padding-top: 100px;
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.Agency {
+    width: 100%;
+
+    padding: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.usefull-links {
+    padding: 5px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+.suppots {
+    width: 100%;
+
+    padding: 5px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+.Contact-information {
+    width: 100%;
+    padding: 5px;
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+hr {
+   
+    width: 75%;
+    margin: auto;
+
+}
+
+.use-titel {
+    padding-bottom: 50px;
+}
+
+.footer-2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {
+
+    .banner-content {
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .manu-container {
+
+        flex-direction: column;
+        position: absolute;
+
+
+    }
+
+    .full-banner-container {
+        flex-direction: column;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+        background-blend-mode: overlay;
+
+    }
+
+    .banner-titel {
+        font-size: 50px;
+
+    }
+
+    .btn-primary {
+        padding: 5px;
+        font-size: 20px;
+
+    }
+
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}  */
